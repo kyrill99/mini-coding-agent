@@ -72,28 +72,30 @@ The agent will greet you and ask what you want to build. Try prompts like:
 
 Here is an actual trace of the agent autonomously planning, writing, debugging, and testing a machine learning class from a single prompt:
 
-> > **Starting Autonomous Agent...**
->
-> > **What would you like the agent to build today?**
-> > `> Write a python class that implements PCA`
+> **Starting Autonomous Agent...**
+> **What would you like the agent to build today?**
+> `> Write a python class that implements PCA`
 >
 > **Agent is analyzing the request and planning...**
-> Todo #1: Research the PCA algorithm to understand its components and steps.
-> Todo #2: Create a Python class named PCA.
-> Todo #3: Implement a method in the class to fit the PCA model on the data.
-> Todo #4: Implement a method to transform the data using the computed PCA components.
-> Todo #5: Test the PCA class with some sample data to ensure it works correctly.
+>
+> - Todo #1: Research the PCA algorithm to understand its components and steps.
+> - Todo #2: Create a Python class named PCA.
+> - Todo #3: Implement a method in the class to fit the PCA model on the data.
+> - Todo #4: Implement a method to transform the data using the computed PCA components.
+> - Todo #5: Test the PCA class with some sample data to ensure it works correctly.
 >
 > **Update:** Researched the PCA (Principal Component Analysis) algorithm. It involves standardizing the data, computing covariance matrix, finding eigenvalues and eigenvectors, sorting eigenvectors, and transforming the data onto a new subspace.
-> Todo #1: ~~Research the PCA algorithm to understand its components and steps.~~
-> Todo #2: Create a Python class named PCA.
-> _(...)_
+>
+> - Todo #1: ~~Research the PCA algorithm to understand its components and steps.~~
+> - Todo #2: Create a Python class named PCA.
+>   _(...)_
 >
 > **Agent wrote to file:** `pca.py`
 > **Update:** Created a Python class named PCA with an initialization method to set the number of components...
-> Todo #1: ~~Research the PCA algorithm to understand its components and steps.~~
-> Todo #2: ~~Create a Python class named PCA.~~
-> _(...)_
+>
+> - Todo #1: ~~Research the PCA algorithm to understand its components and steps.~~
+> - Todo #2: ~~Create a Python class named PCA.~~
+>   _(...)_
 >
 > _(Agent continues to implement fit and transform methods, crossing off Todo #3 and #4)_
 >
@@ -104,11 +106,12 @@ Here is an actual trace of the agent autonomously planning, writing, debugging, 
 > **Agent running command:** `python3 test_pca.py`
 >
 > **Update:** Tested the PCA class using sample data. The class successfully fit the data and transformed it, demonstrating the functionality of dimensional reduction.
-> Todo #1: ~~Research the PCA algorithm to understand its components and steps.~~
-> Todo #2: ~~Create a Python class named PCA.~~
-> Todo #3: ~~Implement a method in the class to fit the PCA model on the data.~~
-> Todo #4: ~~Implement a method to transform the data using the computed PCA components.~~
-> Todo #5: ~~Test the PCA class with some sample data to ensure it works correctly.~~
+>
+> - Todo #1: ~~Research the PCA algorithm to understand its components and steps.~~
+> - Todo #2: ~~Create a Python class named PCA.~~
+> - Todo #3: ~~Implement a method in the class to fit the PCA model on the data.~~
+> - Todo #4: ~~Implement a method to transform the data using the computed PCA components.~~
+> - Todo #5: ~~Test the PCA class with some sample data to ensure it works correctly.~~
 >
 > **Final Output:**
 > The PCA class was successfully implemented and tested. It includes methods to fit the model and transform the data, leading to effective dimensionality reduction. During testing, the sample data was correctly transformed into its principal component representation.
