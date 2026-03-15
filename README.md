@@ -4,14 +4,6 @@ A lightweight, autonomous software engineering agent built entirely from scratch
 
 This project strips away heavy frameworks like LangChain or AutoGen to demonstrate the first principles of AI agents: an LLM running in a continuous loop, using custom tools to plan, write code, execute terminal commands, and fix its own bugs until the job is done.
 
-## 📸 See it in Action
-
-_(Add a screenshot here showing the agent's beautiful terminal output as it plans its todos)_
-`![Agent Planning Phase](assets/planning_screenshot.png)`
-
-_(Add a second screenshot here showing the yellow terminal execution and blue file writing)_
-`![Agent Executing and Fixing Code](assets/execution_screenshot.png)`
-
 ## ✨ Key Features
 
 - **Zero-Framework Architecture:** Built with just the `openai` Python SDK to demonstrate how agentic loops work under the hood.
